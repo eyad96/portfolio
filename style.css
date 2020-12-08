@@ -1,0 +1,241 @@
+body {
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+#PageContainer {
+    height: 100vh;
+}
+
+.bd-highlight {
+    background-color: rgba(222, 222, 222, .15);
+    border: 1px solid rgba(222, 222, 222, .15);
+}
+
+#MenuContainer {
+    min-width: 300px;
+    max-width: 300px;
+    background-color: #121212;
+}
+
+#ContentContainer {
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#ContentContainer section {
+    height: 100vh;
+}
+
+.MobileMenu {
+    background-color: transparent !important;
+}
+
+#SectionHome {
+    background-image: url("assest/84403944_2771510806296408_2394793718944104448_o.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#SectionHome > div {
+    height: 100vh;
+    background-color: rgba(22, 22, 22, .6);
+}
+
+.sectionTitle {
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sectionTitle::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: maroon;
+    margin-bottom: 10px;
+
+}
+
+.AboutTitle {
+
+    margin-bottom: 20px;
+    display: block;
+}
+
+.border-5 {
+    border-width: 10px;
+    border-style: solid;
+}
+
+#SectionHome .typehome {
+    border-bottom: 2px solid maroon;
+    font-style: normal;
+    padding-bottom: 4px;
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: none;
+}
+
+.Skillitem div span {
+    font-weight: 700;
+}
+
+.Skillitem div div {
+    font-weight: 700;
+    background-color: red;
+    height: 10px;
+}
+
+.Skillitem div div div {
+    font-weight: 700;
+    background-color: black;
+
+}
+
+.ResumeItem {
+    border-left: 5px solid black;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.ResumeItem * {
+    position: relative;
+    top: -18px;
+}
+
+.ResumeItem::before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    border: 1px solid black;
+    display: block;
+    border-radius: 252px;
+    position: relative;
+    left: -31px;
+}
+
+.contact {
+    padding-bottom: 130px;
+}
+
+.contact .info {
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: #149ddd;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+
+.contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #173b6c;
+
+}
+
+.contact .info .email p {
+    padding-top: 5px;
+}
+
+.contact .info .social-links {
+    padding-left: 60px;
+}
+
+.contact .info .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.contact .info .social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+}
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: #149ddd;
+    color: #fff;
+}
+
+.contact .php-email-form {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .form-group {
+    padding-bottom: 8px;
+}
+
+.contact.validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contact input, .contact textarea {
+    border-radius: 7px;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact input {
+    height: 44px;
+}
+
+.contact textarea {
+    padding: 10px 12px;
+    outline: none;
+    resize: none;
+}
+
+.contact button[type="submit"] {
+    background: #149ddd;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+
+
